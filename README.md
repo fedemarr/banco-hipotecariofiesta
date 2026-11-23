@@ -2,6 +2,12 @@
 
 Primera versión para presentar al club. Node.js 24, Express, HTML/CSS/JavaScript y SQLite persistente. No se publica y no procesa dinero real.
 
+## Vista previa en Vercel
+
+`npm run build` genera `dist/` con una presentación estática. `vercel.json` publica únicamente ese directorio. Incluye portada, cuenta de ejemplo y paneles ilustrativos con datos sintéticos; no registra usuarios, no realiza cobros, no valida ingresos y no permite modificar datos ni descargar listas de la base local. El QR ilustrativo no tiene validez. La base SQLite, los secretos y las sesiones locales no se suben.
+
+El código completo de la demo funcional local se conserva en este mismo repositorio. Para habilitar operaciones online será necesario conectar una base persistente y la autenticación de producción.
+
 ## Iniciar
 
 ```powershell
